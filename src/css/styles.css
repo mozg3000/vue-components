@@ -1,0 +1,38 @@
+*{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	box-sizing: border-box;
+}
+.checkbox{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border: 1px solid blue;
+	font-size: 18px;
+	line-height: 2px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto 0;
+	display: flex;
+	align-items: center;
+}
+.checked{
+	background-color: blue;
+}
+.filled{
+	background-color: lightgrey;
+}
+.list{
+	display: flex;
+	padding: 0 0 0 20px;
+	flex-direction: column;
+}
+.list_item{
+	display: flex;
+}
+.list_top{
+	display: flex;
+}
+.name{
+	margin: 0 0 0 5px
+}

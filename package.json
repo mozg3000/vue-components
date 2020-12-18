@@ -1,0 +1,39 @@
+{
+  "name": "vue-components",
+  "version": "1.0.0",
+  "description": "Self writed vue components",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozg3000/vue-components.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-components"
+  ],
+  "author": "mozg3000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozg3000/vue-components/issues"
+  },
+  "homepage": "https://github.com/mozg3000/vue-components#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
