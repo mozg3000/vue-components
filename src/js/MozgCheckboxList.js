@@ -3,9 +3,9 @@ import {MozgCheckbox} from './MozgCheckbox.js';
 const MozgCheckboxList = ({props, listeners, data}) => {
 		function checkListHandler(el){
 			let {item} = el;
-			if(el.item.state === 1 || el.item.state === 0){
+			if(el.item.state === 1){
 				el.item.state = -1;
-			}else if(item.state === -1){
+			}else if(item.state === -1 || el.item.state === 0){
 				el.item.state = 1;
 			}
 			listeners['checked-box-list'](el);
